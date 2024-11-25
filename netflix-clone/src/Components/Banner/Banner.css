@@ -44,10 +44,10 @@
     background-color: antiquewhite;
 }
 
-. banner-button:hover {
-    color: black;
-    background-color: aqua;
-    transition: all 0.2s;
+. banner-buttons:hover {
+    color: black !important;
+    background-color: aqua !important;
+    transition: all 0.2s !important;
 }
 
 .banner-fadeBottom {
@@ -58,7 +58,4 @@
         rgba(0, 0, 0, 0.6), /* Middle color with slight black fade */
         black            /* Fully black at the bottom */
     );
-    position: absolute;  /*  overlays the banner */
-    bottom: 0;           /* Position at the bottom of the banner */
-    width: 100%;         /* Span the full width of the banner */
 }
