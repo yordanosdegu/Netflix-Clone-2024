@@ -4,13 +4,14 @@
     max-height: 100px;
     transition: transform 450ms;
     margin-right: 10px;
+
 }
 
 .row_posters {
     display: flex;
     overflow: hidden;
     overflow: scroll;
-    padding: 20px;
+    padding: 10px 0;
 }
 
 .row_posters ::-webkit-scrollbar {
@@ -26,4 +27,25 @@
 }
 .row_posterLarge :hover {
     transform: scale(1.09);
+}
+
+.row_posterLarge {
+    max-height: 250px;
+}
+
+.row_posterLarge :hover{
+    transform: scaleX(1.09);
+}
+
+
+.row {
+    margin-left: 20px;
+    color: white;    
+    margin-bottom: 40px;
+    margin-top: 90px;
+}
+.row h1 {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
